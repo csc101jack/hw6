@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Pizza Ordering </title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="main2.js" defer></script>
+    </head>
+    <body>
+<h1> PIZZA ORDERING PAGE </h1>
+<div>
+     <li>   <img src="bellpepper.jpg">
+        <button type="button" id=bellpepper>Bell Pepper</button>
+        $2.00
+      </li> 
+</div>
+<br>
+<div>
+       <li> <img src="pepperoni.jpg">
+        <button type="button" id=pepperoni>Pepperoni</button>
+        $3.00
+       </li>
+</div>
+<br>
+<div>
+     <li>   <img src="mushroom.jpg">
+        <button type="button" id=mushroom>Mushrooms</button>
+        $1.00
+      </li> 
+</div>
+
+
+<p>Toppings:</P>
+    <p id="userOrder">List</p>
+    <br>
+     <br>
+
+<p> Please type topping items into the box (seperated by commas) </p>
+    <br>
+<input id="order"/>
+<button onclick="Order()">
+  Press to update order
+  </button>
+    <br>
+    <p>Total ($):</p>
+   
+    <p id="pizzaTotal">Total</p>
+
+    <br>
+
+    <button id="clear">Clear Order</button>
+    
+    </body>
+</html>
+

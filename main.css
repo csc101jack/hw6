@@ -1,0 +1,18 @@
+div{border-style:solid; border-color: black;
+color:white; font-size:40px;
+display:flex;
+}
+
+img{justify-content:flex-start}
+
+button{justify-content:flex-end}
+
+h1{color:burlywood; font-size:80px}
+
+p{color:black; font-size:45px}
+
+p1{font-size:45px}
+
+button{background-color:darkorange; color:black; font-size: 24px; border-radius: 12px}
+
+ html {background-color:green;}
