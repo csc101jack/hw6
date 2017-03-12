@@ -23,7 +23,7 @@
 <br>
 <div>
      <li>   <img src="mushroom.jpg">
-        <button type="button" id=mushroom>Mushrooms</button>
+        <button type="button" id=mushrooms>Mushrooms</button>
         $1.00
       </li> 
 </div>
@@ -34,21 +34,28 @@
     <br>
      <br>
 
-<p> Please type topping items into the box (seperated by commas) </p>
+<p> Please type topping items into the box one at a time (pressing "Update Order" after each item) without SPACES or CAPITALS (item names as shown on buttons) </p>
     <br>
-<input id="order"/>
-<button onclick="Order()">
-  Press to update order
+    <br>
+    <p>
+    <p>Order Items:</P>
+     <input id="order"/>
+     
+  <button onclick="placeOrder()">
+  Update Order
   </button>
     <br>
-    <p>Total ($):</p>
-   
-    <p id="pizzaTotal">Total</p>
-
     <br>
-
-    <button id="clear">Clear Order</button>
+    <p>Recipt:</p>
+    <p>$
+    <span id="pizzaTotal">Cost:</span></p>
+    <p>Tax:$<span id="tax"></span></p>
+    <p>Total:$<span id="test">Total:</p>
     
+    <br>
+    <br>
+    <button id="clear">Clear Order</button>
+    <button id="sendorder">Place Order</button>
     </body>
-</html>
+    </html>
 
